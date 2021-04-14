@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="styling.css">
           <script src="maths_quiz_login.js"></script>
     </head>
     <body>
@@ -15,9 +15,10 @@
         <h4 id="player2name"></h4>
         <span id="player2score"></span>
         <div class="container">
-               <center>
+              
                    <h1>Game</h1>
         <hr><hr>
+        <center>
                      <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
                      <h3 >Player 1 Login for the game</h3>
              <label >User Name:</label>
@@ -31,10 +32,12 @@
             <input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name">
              <br>
              </div>
+         
                           <br>
                           <h3 id="playerquestion"></h3>
         <h3 id="playeranswer"></h3>
         <div id="output" class="col-lg-6"></div>
+        </center>
         <br><br>
                  <button style="width:30%" class="btn btn-primary" onclick="addUser()">Log in</button>
                 </div>
@@ -44,8 +47,8 @@
                 <br><br>
                 <label>Number 2</label>
                 <input type="number" id="number2" class="form-control" placeholder="Number 2">
+            
                 <br><br>
-                <button style="width:30%" class="btn btn-primary" onclick="send()">Send</button>
-                  </center>
-               </body>
+                <button id="btn2" style="width:30%" class="btn btn-primary" onclick="send()">Send</button>
+                                </body>
 </html>
